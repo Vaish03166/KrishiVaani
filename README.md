@@ -4,7 +4,7 @@ A compact college IA application implementing a source-grounded, multilingual ex
 
 ## Windows / S: drive quick start
 
-Extract this archive **into the existing project root** `S:\Projects\KrishiVaani-AI` (overwrite named files, keep `.git`). Open PowerShell there. If your existing venv is valid, reuse it. Otherwise create one on S:.
+Extract this archive **into the existing project root** `S:\Projects\KrishiVaani` (overwrite named files, keep `.git`). Open PowerShell there. If your existing venv is valid, reuse it. Otherwise create one on S:.
 
 ```powershell
 cd S:\Projects\KrishiVaani
