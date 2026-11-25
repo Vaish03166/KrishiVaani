@@ -1,4 +1,4 @@
-# KrishiVaani AI — Voice-first multilingual agricultural assistant
+# KrishiVaani — Voice-first multilingual agricultural assistant
 
 A compact college IA application implementing a source-grounded, multilingual extractive retrieval pipeline, a voice-enabled mobile-friendly web interface, live data adapters, and an optional WhatsApp Cloud API channel. No local model weights, Node.js, vector database or Docker required to run locally.
 
@@ -7,7 +7,7 @@ A compact college IA application implementing a source-grounded, multilingual ex
 Extract this archive **into the existing project root** `S:\Projects\KrishiVaani-AI` (overwrite named files, keep `.git`). Open PowerShell there. If your existing venv is valid, reuse it. Otherwise create one on S:.
 
 ```powershell
-cd S:\Projects\KrishiVaani-AI
+cd S:\Projects\KrishiVaani
 if (!(Test-Path .venv\Scripts\python.exe)) { py -3.11 -m venv .venv }
 New-Item -ItemType Directory -Force S:\Temp | Out-Null
 $env:TEMP='S:\Temp'; $env:TMP='S:\Temp'
