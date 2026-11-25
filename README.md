@@ -75,7 +75,7 @@ Webhook processing uses FastAPI background tasks, not a durable queue; duplicate
 ## Evaluation
 
 ```powershell
-cd S:\Projects\KrishiVaani-AI\backend
+cd S:\Projects\KrishiVaani\backend
 ..\.venv\Scripts\python.exe -m pytest -q
 $env:PYTHONIOENCODING='utf-8'
 ..\.venv\Scripts\python.exe evaluate.py | Set-Content -Encoding utf8 evaluation_results.json
